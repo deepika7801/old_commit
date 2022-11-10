@@ -1,0 +1,73 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../Assests/bg.jpg);
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+}
+
+.register-page{
+    display: flex;
+    width: 45vh;
+    height: 100vh;
+    padding: 0%;
+    margin: auto;
+}
+
+.register-header{
+    color: purple;
+    padding-bottom: 5%;
+}
+
+.register-content{
+    position: relative;
+    z-index: 1;
+    background: rgba(0,0,0,0.5);
+    max-width: 100%;
+    margin: auto;
+    padding: 10%;
+    text-align: center;
+}
+
+.register-content input{
+    font-family: "Roboto", sans-serif;
+    outline: 1;
+    background: lightgrey;
+    width: 100%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 15px;
+    box-sizing: border-box;
+    font-size: 14px;
+    color: black;
+}
+
+#register-form button{
+    font-family: "Roboto",sans-serif;
+    text-transform: uppercase;
+    outline: 0;
+    background: #4caf50;
+    width: 100%;
+    border:0;
+    padding: 15px;
+    color: #ffffff;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+#register-form button:hover{
+    background: #43a047;
+}
+
+
+.register-info{
+    padding-top: 5%;
+    color: #f2f2f2;
+}
